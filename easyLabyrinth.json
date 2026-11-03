@@ -1,0 +1,83 @@
+{
+  "chambers": [
+    {
+      "id": 1,
+      "description": "Gate of Shadows",
+      "type": "ENTRANCE",
+      "challengeType": "NONE"
+    },
+    {
+      "id": 2,
+      "description": "The First Switch",
+      "type": "NORMAL",
+      "challengeType": "LEVER"
+    },
+    {
+      "id": 3,
+      "description": "Old Mine Entrance",
+      "type": "ENTRANCE",
+      "challengeType": "NONE"
+    },
+    {
+      "id": 4,
+      "description": "The Oracle",
+      "type": "NORMAL",
+      "challengeType": "RIDDLE"
+    },
+    {
+      "id": 5,
+      "description": "Central Hub",
+      "type": "NORMAL",
+      "challengeType": "LEVER"
+    },
+    {
+      "id": 6,
+      "description": "The Guardian's Post",
+      "type": "NORMAL",
+      "challengeType": "RIDDLE"
+    },
+    {
+      "id": 7,
+      "description": "Treasure",
+      "type": "TREASURE",
+      "challengeType": "NONE"
+    }
+  ],
+  "halls": [
+    {
+      "from": 1,
+      "to": 2,
+      "hasEvent": false
+    },
+    {
+      "from": 2,
+      "to": 5,
+      "hasEvent": true
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "hasEvent": false
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "hasEvent": true
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "hasEvent": false
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "hasEvent": true
+    },
+    {
+      "from": 2,
+      "to": 4,
+      "hasEvent": false
+    }
+  ]
+}
